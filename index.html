@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Kerala's premium houseboats with affordable rates.">
+  <meta name="keywords" content="Kerala Houseboat, Alleppey Boat House, Alappuzha Houseboat, Cheap Houseboat, Houseboat Rates">
+  <title>HouseFloat | Kerala Houseboats</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#hero"><img src="/images/logo.jpeg" alt="HouseFloat Logo"></a>
+      <div class="links">
+        <a href="#about">About Us</a>
+        <a href="#rates">Rates</a>
+        <a href="#contact">Contact</a>
+        <a href="admin.html">Admin</a> <!-- Added Admin link -->
+      </div>
+      
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="full-screen">
+      <div class="hero-text">
+        <h1>Kerala's Best Houseboat Experiences</h1>
+        <p>Discover luxury and comfort as you cruise through Alleppey's serene backwaters.</p>
+        <a href="#contact" class="cta-button">Book Now</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+      <h2>About Us</h2>
+      <p>At HouseFloat, we specialize in creating unforgettable houseboat experiences for families, couples, and groups.</p>
+    </section>
+
+    <!-- Rates Section -->
+    <section id="rates" class="content-section">
+      <h2>Houseboat Rates</h2>
+      <div class="rate-cards">
+        <div class="card">
+          <h3>Standard</h3>
+          <p>From ₹12,000/Night</p>
+        </div>
+        <div class="card">
+          <h3>Premium</h3>
+          <p>From ₹20,000/Night</p>
+        </div>
+        <div class="card">
+          <h3>Luxury</h3>
+          <p>From ₹35,000/Night</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Full Name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email Address" required>
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Admin Section -->
+    <section id="admin" class="hidden">
+      <h2>Admin Panel</h2>
+      <p>Update the phone number(s) for WhatsApp notifications:</p>
+      <input type="text" id="adminPhoneNumbers" placeholder="Enter numbers separated by commas">
+      <button id="saveNumbers">Save Numbers</button>
+    </section>
+
+    <!-- Admin Button (Hidden) -->
+    <button id="adminButton" class="hidden">Open Admin Panel</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 HouseFloat. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

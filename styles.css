@@ -1,0 +1,184 @@
+/* General Styles */
+.hidden {
+    display: none;
+  }
+  
+  #admin {
+    padding: 2rem;
+    background: #f9f9f9;
+    border-top: 2px solid #ddd;
+    text-align: center;
+  }
+  
+  #admin input {
+    width: 50%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  #admin button {
+    background: #00796b;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #136987;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 20px;
+    z-index: 1000;
+  }
+  
+  nav img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  nav .links a {
+    color: white;
+    padding: 0 15px;
+    font-size: 1.2rem;
+  }
+  
+  nav .links a:hover {
+    color: #f57c00;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('/images/hero-image.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    background: #f57c00;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background: #ff8c00;
+  }
+  
+  /* Responsive Image */
+  .responsive-img {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  /* Rate Cards */
+  .rate-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .card {
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact Form */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #136987;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button:hover {
+    background: #0e4a5a;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #136987;
+    color: white;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #f57c00;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
